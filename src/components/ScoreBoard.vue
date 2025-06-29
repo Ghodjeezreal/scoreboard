@@ -94,13 +94,13 @@
 import { ref, watch, onMounted } from 'vue'
 
 // Game title
-const gameTitle = ref('My Game')
+const gameTitle = ref('Nationale 20 Volleyball')
 const editingTitle = ref(false)
 
 // Team names and scores
 const leftScore = ref(0)
 const rightScore = ref(0)
-const leftLabel = ref('Team A')
+const leftLabel = ref('Team Coach')
 const rightLabel = ref('Team B')
 const editingLeft = ref(false)
 const editingRight = ref(false)
@@ -156,7 +156,7 @@ function saveRound() {
 function resetAll() {
   leftScore.value = 0
   rightScore.value = 0
-  leftLabel.value = 'Team A'
+  leftLabel.value = 'Team Coach'
   rightLabel.value = 'Team B'
 }
 
