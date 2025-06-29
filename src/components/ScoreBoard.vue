@@ -320,7 +320,7 @@ h2:hover {
     font-size: 20vw;
   }
   button, .reset-all, .edit-input, .edit-title {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     padding: 2vw 3vw;
   }
   .header {
