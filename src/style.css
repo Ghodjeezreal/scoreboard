@@ -30,6 +30,12 @@ body {
   min-height: 100vh;
 }
 
+/* Improve touch behavior globally to reduce accidental zoom on tap */
+html, body, #app {
+  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
