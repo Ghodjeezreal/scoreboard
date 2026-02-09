@@ -96,6 +96,7 @@ import { ref, watch, onMounted } from 'vue'
 // Game title
 const gameTitle = ref('Game Title')
 const rightScore = ref(0)
+const leftScore = ref(0)
 const leftLabel = ref('Team A')
 const rightLabel = ref('Team B')
 const editingLeft = ref(false)
