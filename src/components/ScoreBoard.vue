@@ -95,10 +95,6 @@ import { ref, watch, onMounted } from 'vue'
 
 // Game title
 const gameTitle = ref('Game Title')
-const editingTitle = ref(false)
-
-// Team names and scores
-const leftScore = ref(0)
 const rightScore = ref(0)
 const leftLabel = ref('Team A')
 const rightLabel = ref('Team B')
@@ -232,6 +228,7 @@ function clearRounds() {
   margin: 2vw 0;
   touch-action: manipulation;
   -webkit-user-select: none;
+  user-select: none;
 }
 .controls {
   display: flex;
@@ -247,10 +244,6 @@ button {
   color: #fff;
   cursor: pointer;
   transition: background 0.2s;
-  touch-action: manipulation;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-user-select: none;
-  user-select: none;
 }
 button:disabled {
   opacity: 0.5;
